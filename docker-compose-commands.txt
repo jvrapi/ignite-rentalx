@@ -1,0 +1,7 @@
+docker-compose up -d: inicia o container em background
+
+docker-compose start: inicia o container
+
+docker-compose stop: para o container
+
+docker-compose down: remove os serviços

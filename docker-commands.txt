@@ -1,0 +1,13 @@
+docker ps: lista todos os containers que estão iniciados.
+
+docker ps -a: lista todos os containers, tantos os inciados como os parados.
+
+docker rm [id ou nome do container]: remove um container. Só funciona quando o container está parado
+
+docker start [id ou nome do container]: inicia um container.
+
+docker stop [id ou nome do container]: para um container.
+
+docker exec -it [id ou nome do container] /bin/bash: acessa o container
+
+docker logs [id ou nome do container] -f: mostra os logs do container
