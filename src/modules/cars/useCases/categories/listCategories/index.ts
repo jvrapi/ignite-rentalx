@@ -4,7 +4,7 @@ import { ListCategoriesController } from './ListCategoriesController';
 import { ListCategoriesUseCase } from './ListCategoriesUseCase';
 
 const listCategories = (request: Request, response: Response) => {
-    const categoriesRepository = CategoriesRepository.getInstance();
+    const categoriesRepository = new CategoriesRepository();
 
     const listCategoriesUseCase = new ListCategoriesUseCase(
         categoriesRepository
