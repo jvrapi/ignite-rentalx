@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { ensureAuthenticated } from '../middlewares/enshureAuthenticated';
+import { ensureAuthenticated } from '../middlewares/ensureAuthenticated';
 import { CreateSpecificationController } from '../modules/cars/useCases/specifications/createSpecification/CreateSpecificationController';
 
 const specificationsRoutes = Router();
