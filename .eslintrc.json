@@ -29,6 +29,7 @@
 			"class-methods-use-this": "off",
 			"no-use-before-define": "off",
 			"camelcase": "off",
-			"no-undef": "off"
+			"no-undef": "off",
+			"import/no-extraneous-dependencies": "off"
     }
 }
