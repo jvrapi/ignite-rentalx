@@ -1,5 +1,5 @@
-import { ICreateUserDTO } from '../../dtos/ICreateUSerDTO';
-import { User } from '../../infra/typeorm/entities/User';
+import { ICreateUserDTO } from '@modules/accounts/dtos/ICreateUSerDTO';
+import { User } from '@modules/accounts/infra/typeorm/entities/User';
 import { IUsersRepository } from '../IUsersRepository';
 
 class UsersRepositoryInMemory implements IUsersRepository {
