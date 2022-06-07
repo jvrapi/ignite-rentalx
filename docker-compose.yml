@@ -1,7 +1,7 @@
 version: "3.9"
 
 services:
-  database: #ESSE É O NOME DO SERVICE QUE DEVE ESTAR NO ARQUIVO DE CRIAÇÃO DE CONEXÃO
+  database_ignite: #ESSE É O NOME DO SERVICE QUE DEVE ESTAR NO ARQUIVO DE CRIAÇÃO DE CONEXÃO
     image: postgres
     container_name: database_ignite
     restart: always
@@ -25,9 +25,9 @@ services:
     volumes: 
       - .:/usr/app
     links: 
-      - database
+      - database_ignite
     depends_on:
-      - database
+      - database_ignite
 
 
 
