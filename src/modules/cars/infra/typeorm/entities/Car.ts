@@ -9,7 +9,7 @@ import {
 import { v4 as uuid } from 'uuid';
 import { Category } from './Category';
 
-@Entity()
+@Entity('cars')
 class Car {
   @PrimaryColumn()
   id: string;
