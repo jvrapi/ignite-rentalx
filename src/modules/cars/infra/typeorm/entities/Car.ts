@@ -54,7 +54,7 @@ class Car {
   created_at: Date;
 
   @Column()
-  available: true;
+  available: boolean;
 
   constructor() {
     if (!this.id) {
