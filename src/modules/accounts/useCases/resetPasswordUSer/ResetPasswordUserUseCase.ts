@@ -2,8 +2,8 @@ import { IDateProvider } from '@shared/container/providers/DateProvider/IDatePro
 import { AppError } from '@shared/errors/AppError';
 import { hash } from 'bcrypt';
 import { inject, injectable } from 'tsyringe';
-import { IUsersRepository } from '../repositories/IUsersRepository';
-import { IUsersTokenRepository } from '../repositories/IUsersTokenRepository';
+import { IUsersRepository } from '../../repositories/IUsersRepository';
+import { IUsersTokenRepository } from '../../repositories/IUsersTokenRepository';
 
 interface IRequest {
   token: string;
